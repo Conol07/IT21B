@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Flower Class</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Sales Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <h1>Flower Class</h1>
-  <div id="output"></div>
-  <script src="script.js"></script>
-  <script>
-    let rose = new Flower("Rose", "red", "Spring", true);
-    rose.bloom();
-    rose.fragrance();
-    rose.colorDisplay();
-  </script>
+    <h1>Coffee Shop Sales Data</h1>
+    
+    <div>
+        <canvas id="barChart" width="400" height="200"></canvas>
+    </div>
+    
+    <div>
+        <canvas id="pieChart" width="400" height="200"></canvas>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

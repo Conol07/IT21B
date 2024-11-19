@@ -1,0 +1,10 @@
+{
+    "barChartData": {
+        "labels": ["Espresso", "Latte", "Cappuccino", "Americano", "Mocha", "Flat White"],
+        "data": [150, 200, 120, 180, 90, 160]
+    },
+    "pieChartData": {
+        "labels": ["Cash", "Credit Card", "Mobile Payment", "Gift Card"],
+        "data": [40, 35, 20, 5]
+    }
+}
